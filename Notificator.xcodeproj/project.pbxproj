@@ -11,6 +11,13 @@
 		F14555992698985F00FD8F99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14555982698985F00FD8F99 /* ContentView.swift */; };
 		F145559B2698986000FD8F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F145559A2698986000FD8F99 /* Assets.xcassets */; };
 		F145559E2698986000FD8F99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F145559D2698986000FD8F99 /* Preview Assets.xcassets */; };
+		F14555A5269898BF00FD8F99 /* MyCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14555A4269898BF00FD8F99 /* MyCourse.swift */; };
+		F14555A92698A42E00FD8F99 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14555A82698A42E00FD8F99 /* Person.swift */; };
+		F14555AB2698A4FA00FD8F99 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14555AA2698A4FA00FD8F99 /* NotificationsView.swift */; };
+		F14555AD2698B3FF00FD8F99 /* FullCourseNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14555AC2698B3FF00FD8F99 /* FullCourseNotification.swift */; };
+		F1E50D492699E81E0043DCDD /* CreateCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E50D482699E81E0043DCDD /* CreateCourse.swift */; };
+		F1E50D4B2699F6CB0043DCDD /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E50D4A2699F6CB0043DCDD /* Auth.swift */; };
+		F1F25A502698D24200AF6644 /* CreateNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F25A4F2698D24200AF6644 /* CreateNotification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		F14555982698985F00FD8F99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F145559A2698986000FD8F99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F145559D2698986000FD8F99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F14555A4269898BF00FD8F99 /* MyCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCourse.swift; sourceTree = "<group>"; };
+		F14555A82698A42E00FD8F99 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F14555AA2698A4FA00FD8F99 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		F14555AC2698B3FF00FD8F99 /* FullCourseNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullCourseNotification.swift; sourceTree = "<group>"; };
+		F1E50D482699E81E0043DCDD /* CreateCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCourse.swift; sourceTree = "<group>"; };
+		F1E50D4A2699F6CB0043DCDD /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		F1F25A4F2698D24200AF6644 /* CreateNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNotification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				F14555962698985F00FD8F99 /* NotificatorApp.swift */,
 				F14555982698985F00FD8F99 /* ContentView.swift */,
+				F14555AA2698A4FA00FD8F99 /* NotificationsView.swift */,
+				F14555AC2698B3FF00FD8F99 /* FullCourseNotification.swift */,
+				F14555A4269898BF00FD8F99 /* MyCourse.swift */,
+				F1F25A4F2698D24200AF6644 /* CreateNotification.swift */,
+				F14555A82698A42E00FD8F99 /* Person.swift */,
+				F1E50D482699E81E0043DCDD /* CreateCourse.swift */,
+				F1E50D4A2699F6CB0043DCDD /* Auth.swift */,
 				F145559A2698986000FD8F99 /* Assets.xcassets */,
 				F145559C2698986000FD8F99 /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F14555A92698A42E00FD8F99 /* Person.swift in Sources */,
+				F14555AD2698B3FF00FD8F99 /* FullCourseNotification.swift in Sources */,
+				F1E50D492699E81E0043DCDD /* CreateCourse.swift in Sources */,
 				F14555992698985F00FD8F99 /* ContentView.swift in Sources */,
+				F14555A5269898BF00FD8F99 /* MyCourse.swift in Sources */,
 				F14555972698985F00FD8F99 /* NotificatorApp.swift in Sources */,
+				F14555AB2698A4FA00FD8F99 /* NotificationsView.swift in Sources */,
+				F1F25A502698D24200AF6644 /* CreateNotification.swift in Sources */,
+				F1E50D4B2699F6CB0043DCDD /* Auth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +305,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +335,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

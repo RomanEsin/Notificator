@@ -8,9 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @State var hasGroup = false
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        if hasGroup {
+            TabView {
+                NotificationsView()
+                MyCourse()
+            }
+            .transition(.move(edge: .bottom).animation(.easeInOut))
+        } else {
+            CreateCourse(hasGroup: $hasGroup.animation(.easeInOut))
+        }
     }
 }
 
