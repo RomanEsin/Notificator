@@ -87,7 +87,7 @@ struct FullCourseNotification: View {
                     .foregroundColor(.secondary)
 
                 VStack(spacing: 4) {
-                    Text("Опрос: У кого больше хуй")
+                    Text("Опрос: тест")
                         .font(.title2.bold())
                         .padding(.bottom, 8)
 
@@ -112,6 +112,6 @@ struct FullCourseNotification: View {
 
 struct FullCourseNotification_Previews: PreviewProvider {
     static var previews: some View {
-        FullCourseNotification(notification: CourseNotification(from: "Дени Абакаев", title: "Перевод нахуй", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."))
+        FullCourseNotification(notification: CourseNotification(from: "Дени Абакаев", title: "Перевод", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."))
     }
 }
